@@ -456,18 +456,11 @@ nav .fa-solid{
 }
 
 
-@media only screen and (max-width:600px){
-     #header{
-        background-image: url(images/profile.png);
-     }
-     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
-     }
-     .header-text h1{
-        font-size: 30px;
-     }
-     nav .fa-solid{
+@media only screen and (max-width:800px){
+    nav{
+        width: 165px;
+    } 
+    nav .fa-solid{
         display: block;
         font-size: 25px;
      }
@@ -475,8 +468,8 @@ nav .fa-solid{
         background: white;
         position: fixed;
         top: 0;
-        right: -200px;
-        width: 200px;
+        right: -600px;
+        width: 300px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
