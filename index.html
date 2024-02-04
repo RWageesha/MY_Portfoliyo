@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4b2d6aeaba.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container1">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><i class="fas fa-house"></i><a href="index.html">Home</a></li>
+                        <li><i class="fas fa-address-card"></i><a href="about.html">About</a></li>
+                        <li><i class="fas fa-gear"></i><a href="portfolio.html">Portfolio</a></li>
+                        <li><i class="fas fa-phone"></i><a href="contact.html">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"> M e n  u</i>
+                </nav>
+                
+            </div>
+        </div>
+        
+        <div class="header-text">
+            <h1><span>P</span>ortfolio</h1>
+        </div>
+        
+        <div class="home">
+        
+            <div class="image"><img src="images/ee.jpg" width="300px" ></div>
+            <div class="content">
+                <h1>Hi, I'm<span>Wageesha</span><br>From Sri-Lanka</h1>
+                <div class="details" >
+                    <p style="text-align: center; margin-left: 5px;">"I'm a Computer Science student at Sir John Kotelawala Defence University with a passion for UI/UX design. As a Full-Stack Developer, I enjoy building robust software solutions, handling both front-end and back-end development. In web development, I specialize in creating dynamic and responsive websites, blending creativity with technical expertise for impactful solutions."</p>    
+                </div>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>CREATED BY WAGEESHA WISHMITHA<i class="fa-solid fa-heart"></i></p>
+        </div>
+        <script>
+            
+            /*------small side menu-----*/
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
