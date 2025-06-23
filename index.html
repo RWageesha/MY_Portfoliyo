@@ -4,57 +4,394 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
+        <title>Wageesha Wishmitha - Portfolio</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/4b2d6aeaba.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="header">
-            <div class="container1">
-                <nav>
-                    <ul id="sidemenu">
-                        <li><i class="fas fa-house"></i><a href="index.html">Home</a></li>
-                        <li><i class="fas fa-address-card"></i><a href="about.html">About</a></li>
-                        <li><i class="fas fa-gear"></i><a href="portfolio.html">Portfolio</a></li>
-                        <li><i class="fas fa-phone"></i><a href="contact.html">Contact</a></li>
-                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                    </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()"> M e n  u</i>
-                </nav>
-                
+    </head>    <body>
+        <!-- Navigation -->        
+         <div id="header" class="left-sidebar">
+            <div class="logo">
+                <h2><span>W</span>ageesha</h2>
+            </div>
+            
+            <div class="profile-image">
+                <img src="images/ee.jpg" alt="Wageesha Wishmitha">
+            </div>
+            
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#home"><i class="fas fa-house"></i><span>Home</span></a></li>
+                    <li><a href="#about"><i class="fas fa-address-card"></i><span>About</span></a></li>
+                    <li><a href="#portfolio"><i class="fas fa-gear"></i><span>Portfolio</span></a></li>
+                    <li><a href="#skills"><i class="fas fa-code"></i><span>Skills</span></a></li>
+                    <li><a href="#services"><i class="fas fa-briefcase"></i><span>Services</span></a></li>
+                    <li><a href="#contact"><i class="fas fa-phone"></i><span>Contact</span></a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="toggleMenu()">Menu</i>
+            </nav>
+            
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            
+            <div class="copyright-sidebar">
+                &copy; 2025 Wageesha Wishmitha. All rights reserved.
             </div>
         </div>
         
-        <div class="header-text">
-            <h1><span>P</span>ortfolio</h1>
-        </div>
+        <div class="main-content">
         
-        <div class="home">
-        
-            <div class="image"><img src="images/ee.jpg" width="300px" ></div>
-            <div class="content">
-                <h1>Hi, I'm<span>Wageesha</span><br>From Sri-Lanka</h1>
-                <div class="details" >
-                    <p style="text-align: center; margin-left: 5px;">"I'm a Computer Science student at Sir John Kotelawala Defence University with a passion for UI/UX design. As a Full-Stack Developer, I enjoy building robust software solutions, handling both front-end and back-end development. In web development, I specialize in creating dynamic and responsive websites, blending creativity with technical expertise for impactful solutions."</p>    
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">            <div class="header-text">
+                <h1><span>P</span>ortfolio</h1>
+            </div>
+            
+            <div class="home">
+                <div class="image"><img src="images/ee.jpg" width="300px" ></div>
+                <div class="content">
+                    <h1>Hi, I'm<span> Wageesha</span><br>From Sri-Lanka</h1>
+                    <div class="details" >
+                        <p style="text-align: center; margin-left: 5px;">"I'm a Computer Science student at Sir John Kotelawala Defence University with a passion for UI/UX design. As a Full-Stack Developer, I enjoy building robust software solutions, handling both front-end and back-end development. In web development, I specialize in creating dynamic and responsive websites, blending creativity with technical expertise for impactful solutions."</p>    
+                    </div>
+                    <div class="skill-badges">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C++</span>
+                    </div>
                 </div>
             </div>
-            
-        </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col">
+                        <h1 class="sub-title" style="text-align: center; padding: 40px;">ABOUT ME</h1>
+                        
+                        <h4 style="margin-left: 30px; font-size: larger;">PERSONAL INFORMATION</h4>
+                        
+                        <div class="info-container">
+                            <div class="info">
+                                <h5><span>Name : </span>Wageesha Wishmitha</h5>
+                                <h5><span>Age : </span>21</h5>
+                                <h5><span>Email : </span>wageesharajapaksha1@gmail.com</h5>
+                                <h5><span>Address : </span>Ambalangoda</h5>
+                            </div>
+                            <div class="info">
+                                <h5><span>Skill : </span>UI/UX designing, Full-Stack development,<br>Web development</h5>
+                                <h5><span>Experience : </span>1 Year</h5>
+                                <h5><span>Language : </span>English, Sinhala</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <h1 class="heading"> <span>MY</span> EDUCATION</h1>
+            <div class="box-container">
+                <div class="box" style="background-color: rgb(1, 43, 50);">
+                    <i class="fas fa-certificate"></i>
+                    <span>2018</span>
+                    <h3>O/L</h3>
+                    <p>I've completed with seven 'A's and two 'B's</p>
+                </div>
+                <div class="box" style="background-color:  rgb(1, 43, 50);">
+                    <i class="fas fa-briefcase"></i>
+                    <span>2021</span>
+                    <h3>A/L</h3>
+                    <p>I've completed with two 'C's and one 'S'</p>
+                </div>
+                <div class="box" style="background-color: rgb(1, 43, 50);">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2023-2026</span>
+                    <h3>Computer Science</h3>
+                    <p>I'm currently pursuing a computer science degree at KDU</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h1 class="heading"> <span>MY</span> SKILLS </h1>
+            <div class="box-container" >
+                <div class="box" style="background-color:  rgb(1, 43, 50);">
+                    <h3><img src="images/java.png" style="width: 100px;">Java</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="box" style="background-color: rgb(1, 43, 50);">
+                    <h3><img src="images/css-3.png" style="width: 100px;">CSS</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+                <div class="box" style="background-color:  rgb(1, 43, 50);">
+                    <h3><img src="images/java-script.png" style="width: 100px; height: 60px;">JavaScript</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="box" style="background-color:  rgb(1, 43, 50);">
+                    <h3><img src="images/c-.png" style="width: 100px;">C++</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="box" style="background-color:  rgb(1, 43, 50);">
+                    <h3><img src="images/python.png" style="width: 100px;">Python</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="box" style="background-color:  rgb(1, 43, 50);">
+                    <h3><img src="images/html-5.png" style="width: 100px;">HTML</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div style="background-color: rgb(14, 14, 47);">
+                        <i class="fa-solid fa-brush"></i>
+                        <h2>Web Design</h2>
+                        <p>I create visually appealing and user-friendly websites to enhance your online presence. My focus is on crafting engaging designs with intuitive layouts for a seamless user experience</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div style="background-color: rgb(14, 14, 47);">
+                        <i class="fa-solid fa-toolbox"></i>
+                        <h2>Graphic design</h2>
+                        <p>Transform your brand with visually striking designs. I specialize in creating impactful graphics that communicate your message effectively, ensuring a memorable and professional identity.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div style="background-color: rgb(14, 14, 47);">
+                        <i class="fa-brands fa-app-store"></i> 
+                        <h2>Applications</h2>
+                        <p>Elevate your digital experience with expertly crafted applications. From user-friendly interfaces to seamless functionality, I design applications that enhance user engagement and deliver a seamless digital experience.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio/Work Section -->
+        <section id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="images/Dancing_club_Regitration.png" height="100%">
+                        <div class="layer">
+                            <h3>CLUB POSTERS</h3>
+                            <p>I create eye-catching posters for events, making sure they grab attention and boost attendance.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/hardware.jpeg" height="350px">
+                        <div class="layer">
+                            <h3>HARDWARE PROJECT</h3>
+                            <p>I design and implement creative hardware projects that address real-world challenges, showcasing both creativity and technical expertise.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container" style="display: flex;">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> wageeshawishmitha@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 0773919896</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/about-me.jpg" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
         <div class="copyright">
             <p>CREATED BY WAGEESHA WISHMITHA<i class="fa-solid fa-heart"></i></p>
-        </div>
-        <script>
-            
-            /*------small side menu-----*/
+        </div>        <script>
+            /*------left side menu-----*/
             var sidemenu = document.getElementById("sidemenu");
+            var sidebar = document.querySelector(".left-sidebar");
 
+            function toggleMenu() {
+                sidebar.classList.toggle("expanded");
+            }
+            
             function openmenu(){
-                sidemenu.style.right = "0";
+                sidebar.classList.add("expanded");
             }
+            
             function closemenu(){
-                sidemenu.style.right = "-200px";
+                sidebar.classList.remove("expanded");
             }
 
+            /*------smooth scrolling for navigation-----*/
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        // Add a small delay for the animation to look better
+                        setTimeout(() => {
+                            target.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }, 100);
+
+                        // Add active class to clicked navigation item
+                        document.querySelectorAll('.left-sidebar nav ul li a').forEach(link => {
+                            link.classList.remove('active');
+                        });
+                        this.classList.add('active');
+                        
+                        // On mobile, close the menu after clicking
+                        if(window.innerWidth <= 800) {
+                            closemenu();
+                        }
+                    }
+                });
+            });
+
+            /*------progress bar animation on scroll-----*/
+            const observerOptions = {
+                threshold: 0.2,
+                rootMargin: '0px 0px -100px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Animate progress bars
+                        const progressBars = entry.target.querySelectorAll('.progress-bar');
+                        progressBars.forEach(bar => {
+                            const width = bar.style.width;
+                            bar.style.setProperty('--progress-width', width);
+                            bar.classList.add('animate');
+                        });
+                        
+                        // Add entrance animations to each box
+                        const boxes = entry.target.querySelectorAll('.box, .work, .services-list div');
+                        boxes.forEach((box, index) => {
+                            box.style.animationDelay = (index * 0.2) + 's';
+                            box.classList.add('animate-in');
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            // Observe sections that need animations
+            const skillsSection = document.querySelector('.skills');
+            const educationSection = document.querySelector('.education');
+            const servicesSection = document.getElementById('services');
+            const portfolioSection = document.getElementById('portfolio');
+            
+            if (skillsSection) observer.observe(skillsSection);
+            if (educationSection) observer.observe(educationSection);
+            if (servicesSection) observer.observe(servicesSection);
+            if (portfolioSection) observer.observe(portfolioSection);
+            
+            /*------add loading animation to elements-----*/
+            window.addEventListener('load', () => {
+                document.body.classList.add('loaded');
+                
+                // Add entrance animation to hero section
+                const heroSection = document.querySelector('.hero-section');
+                if (heroSection) {
+                    heroSection.classList.add('animate-in');
+                }
+            });
+
+            /*------highlight active section in navigation-----*/
+            function highlightActiveSection() {
+                const sections = document.querySelectorAll('section');
+                const navLinks = document.querySelectorAll('.left-sidebar nav ul li a');
+                
+                window.addEventListener('scroll', () => {
+                    let current = '';
+                    
+                    sections.forEach(section => {
+                        const sectionTop = section.offsetTop;
+                        const sectionHeight = section.clientHeight;
+                        const scrollPosition = window.scrollY;
+                        
+                        if(scrollY >= (sectionTop - 200)) {
+                            current = section.getAttribute('id');
+                        }
+                    });
+                    
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if(link.getAttribute('href').substring(1) === current) {
+                            link.classList.add('active');
+                        }
+                    });
+                });
+            }
+            
+            highlightActiveSection();
+            
+            /*------ Add animation classes to elements -----*/
+            document.addEventListener('DOMContentLoaded', function() {
+                // Add animation class to services
+                const servicesItems = document.querySelectorAll('.services-list div');
+                servicesItems.forEach((item, index) => {
+                    item.style.animationDelay = (index * 0.2) + 's';
+                });
+                
+                // Add animation class to education boxes
+                const educationBoxes = document.querySelectorAll('.education .box');
+                educationBoxes.forEach((box, index) => {
+                    box.style.animationDelay = (index * 0.2) + 's';
+                });
+                
+                // Add animation class to skill boxes
+                const skillBoxes = document.querySelectorAll('.skills .box');
+                skillBoxes.forEach((box, index) => {
+                    box.style.animationDelay = (index * 0.2) + 's';
+                });
+            });
         </script>
+        </div> <!-- End of main-content -->
     </body>
 </html>
