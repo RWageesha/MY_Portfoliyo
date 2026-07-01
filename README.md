@@ -1,7 +1,7 @@
-# Wageesha Sammani
+# Wageesha 
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0ea5e9,100:8b5cf6&height=240&section=header&text=Wageesha%20Sammani&fontColor=ffffff&fontSize=40&fontAlignY=35&animation=fadeIn" alt="Wave header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0ea5e9,100:8b5cf6&height=240&section=header&text=Wageesha%20Wishmitha&fontColor=ffffff&fontSize=40&fontAlignY=35&animation=fadeIn" alt="Wave header" />
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
     <td width="62%" valign="top">
       <h2>Professional Summary</h2>
       <p>
-        I am <b>Wageesha Sammani</b>, a final-year undergraduate from <b>Sri Lanka</b> building premium, research-backed software across
+        I am <b>Wageesha Wishmitha</b>, a final-year undergraduate from <b>Sri Lanka</b> building premium, research-backed software across
         <b>AI Engineering</b>, <b>Machine Learning</b>, <b>Computer Vision</b>, <b>Data Analytics</b>, <b>Full Stack Development</b>,
         <b>Blockchain Security</b>, and <b>Cyber Security</b>.
       </p>
