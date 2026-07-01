@@ -1,4 +1,4 @@
-# Wageesha 
+# Wageesha Wishmitha
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0ea5e9,100:8b5cf6&height=240&section=header&text=Wageesha%20Wishmitha&fontColor=ffffff&fontSize=40&fontAlignY=35&animation=fadeIn" alt="Wave header" />
